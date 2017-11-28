@@ -22,9 +22,18 @@ git show xxxx // shows xxxxXXXXXXXXX commit
 
 git clone https://github.com/idlviv/promise.git newname // from to(if want different name)
 
-git remote -v // view for example after cloning
+git remote -v // view for remotes
 
-git push
+git remote add origin git@github.com:idlviv/git-pr.git // connect local repository
+	// to remote git@github.com:idlviv/git-pr.git with short name 'origin'
+	
+git remote rm origin // remove remote with name 'origin'
+
+git fetch
+
+git pull origin master // takes remote to local
+
+git push [origin master] // takes local to remote
 
 git branch
 
@@ -37,3 +46,4 @@ git checkout -b newBranch // create new branch and change on it
 git merge newBranch // merge current with newBranch
 
 git branch -d newBranch // delete newBranch
+
