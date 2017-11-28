@@ -1,0 +1,39 @@
+git init
+
+git status
+
+git add git-commands.txt
+
+git commit // or git commit -m '<message>'
+
+// save in vim editor - esc and :wq and enter
+
+git diff git-commands.txt // shows chnges in files
+
+// after every change need to: 
+> git add git add git-commands.txt
+> git commit -m '<message>'
+// or 
+> git commit -a -m '<message>' // commits all files which under vcs
+
+git log // shows all commits
+
+git show xxxx // shows xxxxXXXXXXXXX commit
+
+git clone https://github.com/idlviv/promise.git newname // from to(if want different name)
+
+git remote -v // view for example after cloning
+
+git push
+
+git branch
+
+git branch newBranch // create branch
+
+git checkout newBranch // change branch
+
+git checkout -b newBranch // create new branch and change on it
+
+git merge newBranch // merge current with newBranch
+
+git branch -d newBranch // delete newBranch
