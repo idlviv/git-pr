@@ -31,9 +31,9 @@ git remote rm origin // remove remote with name 'origin'
 
 git fetch
 
-git pull origin master // takes remote to local
+git pull origin master // takes remote 'origin' to local 'master'
 
-git push [origin master] // takes local to remote
+git push [origin master] // takes local branch 'master' to remote 'origin'
 
 git branch
 
